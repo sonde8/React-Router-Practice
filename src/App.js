@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom' 
+import { Routes, Route, Link } from 'react-router-dom' 
 import Main from './pages/Main'
 import About from './pages/About'
 import MyPage from './pages/MyPage'
@@ -29,7 +29,7 @@ function App() {
       {/* Routes 밖에 있는 요소들은 라우트  처리와 관계없이 고정
         - 상단바, 하단바 등등 고정되어있어야하는 요소들은 Routes 밖에 위치
       */}
-      <h1>React-Router-Dom 실습</h1>
+      <Link to='/main'><h1>React-Router-Dom 실습</h1></Link>
       <Routes>
         <Route path='/' element={<Main/>}></Route>
         <Route path='/about' element={<About/>}></Route>

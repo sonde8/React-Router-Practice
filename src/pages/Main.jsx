@@ -17,7 +17,8 @@ const Main = () => {
     <div>
       Main
       <hr/>
-      <Link to ='/about'>AboutPage</Link>
+      <Link to = '/about'>AboutPage</Link>
+      <Link to = 'https://www.naver.com'>네이버</Link>
       </div>
   )
 }
