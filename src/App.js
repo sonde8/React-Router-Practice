@@ -33,8 +33,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Main/>}></Route>
         <Route path='/about' element={<About/>}></Route>
-        <Route path='/mypage' elemen={<MyPage/>}></Route>
-        <Route path='/product' elemen={<Product/>}></Route>
+        <Route path='/mypage' element={<MyPage/>}></Route>
+        <Route path='/product' element={<Product/>}></Route>
       </Routes>
     </div>
   );
