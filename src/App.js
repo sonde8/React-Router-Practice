@@ -34,7 +34,11 @@ function App() {
         <Route path='/' element={<Main/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/mypage' element={<MyPage/>}></Route>
-        <Route path='/product' element={<Product/>}></Route>
+        {/* useParams 사용 
+          - path 작성 + :변수명
+        */}
+        <Route path='/product/:num' element={<Product/>}></Route>
+        <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>
   );

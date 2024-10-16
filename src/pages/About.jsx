@@ -11,7 +11,7 @@ const About = () => {
   */
 
     const nav = useNavigate()
-    let auth = false // 로그인 권한
+    let auth = true // 로그인 권한
 
   return (
     <div>About
